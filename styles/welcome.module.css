@@ -10,10 +10,14 @@
 
 .title {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
 }
 
 .image {
     position: relative;
-    width: 30%;
+    width: 35%;
     display: flex;
+    
 }

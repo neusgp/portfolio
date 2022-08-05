@@ -1,0 +1,29 @@
+.about {
+    /*  height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0 10% 0;
+}
+
+.content {
+    width: 70%;
+    height: min-content;
+    display: flex;
+    gap: 5%;
+}
+
+.profile_pic {
+    width: 36%;
+    align-self: center;
+}
+
+.text {
+    width: 80%;
+}
+
+.bio {
+    color: #4f4f4f;
+    line-height: 2;
+    font-size: 1.2em;
+}

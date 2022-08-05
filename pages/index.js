@@ -1,8 +1,24 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Welcome from "../components/welcome";
+import About from "../components/about";
+import Projects from "../components/projects";
+import Contact from "../components/contact";
 
-export default function Home() {
+import { PrismaClient } from "@prisma/client";
+
+export async function getServerSideProps() {
+    const prisma = new PrismaClient();
+    const projects = await prisma.projects.findMany();
+    return {
+        props: {
+            foundProjects: projects,
+        },
+    };
+}
+
+export default function Home({ foundProjects }) {
+    console.log(foundProjects);
     return (
         <div>
             <Head>
@@ -15,6 +31,9 @@ export default function Home() {
             </Head>
             <Navbar />
             <Welcome />
+            <About />
+            <Projects projects={foundProjects} />
+            <Contact />
         </div>
     );
 }
