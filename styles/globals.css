@@ -1,12 +1,21 @@
 html,
 body {
     margin: 0;
+    font-family: "Nunito", sans-serif;
+    color: #00418f;
 }
 
 * {
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
