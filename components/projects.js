@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "../styles/projects.module.css";
 import Image from "next/image";
 
@@ -22,8 +23,8 @@ function List({ projects }) {
                 return (
                     <div key={item.id} className={styles.item}>
                         <div className={styles.image}>
-                            <Image
-                                /* src={item.image} */
+                            <img
+                                src={item.image}
                                 alt="project image"
                                 layout="fill"
                             />
