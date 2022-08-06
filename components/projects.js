@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+
 import styles from "../styles/projects.module.css";
-import Image from "next/image";
 
 export default function Projects({ projects }) {
     console.log(projects);
@@ -23,15 +23,17 @@ function List({ projects }) {
                 return (
                     <div key={item.id} className={styles.item}>
                         <div className={styles.image}>
-                            <img
-                                src={item.image}
-                                alt="project image"
-                                layout="fill"
-                            />
+                            <img src={item.image} alt="project image" />
                         </div>
                         <p className={styles.title}>{item.title}</p>
                         <p className={styles.tools}>{item.tools}</p>
                         <p className={styles.description}>{item.description}</p>
+                        <a className={styles.url} href={item.url}>
+                            Open App
+                        </a>
+                        <a className={styles.repo_url} href={item.repo_url}>
+                            GitHub Repo
+                        </a>
                     </div>
                 );
             })}
