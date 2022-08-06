@@ -22,18 +22,28 @@ function List({ projects }) {
             {projects.map((item) => {
                 return (
                     <div key={item.id} className={styles.item}>
-                        <div className={styles.image}>
-                            <img src={item.image} alt="project image" />
-                        </div>
-                        <p className={styles.title}>{item.title}</p>
+                        <img
+                            className={styles.image}
+                            src={item.image}
+                            alt="project image"
+                        />
+                        <h4 className={styles.title}>{item.title}</h4>
                         <p className={styles.tools}>{item.tools}</p>
                         <p className={styles.description}>{item.description}</p>
-                        <a className={styles.url} href={item.url}>
-                            Open App
-                        </a>
-                        <a className={styles.repo_url} href={item.repo_url}>
-                            GitHub Repo
-                        </a>
+                        <div className={styles.buttons}>
+                            <a href={item.url}>
+                                <button className={styles.app_button}>
+                                    <p className={styles.url}>Open App</p>
+                                </button>
+                            </a>
+                            <a href={item.repo_url}>
+                                <button className={styles.repo_button}>
+                                    <p className={styles.repo_url}>
+                                        GitHub Repo
+                                    </p>
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 );
             })}
