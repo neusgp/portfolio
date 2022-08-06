@@ -50,7 +50,7 @@ function Formular(props) {
             message,
         };
 
-        fetch("/api/contact", {
+        fetch("/api/contact_api", {
             method: "POST",
             headers: {
                 Accept: "application/json, text/plain, */*",
