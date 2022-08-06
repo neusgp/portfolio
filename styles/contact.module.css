@@ -39,8 +39,6 @@
     border-radius: 5px;
     overflow: auto;
     outline: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     resize: none; /*remove the resize handle on the bottom right*/
     margin: 0 0 5% 0;
 }
@@ -67,9 +65,6 @@
     color: rgba(223, 11, 138, 1);
     border: 2px solid rgba(223, 11, 138, 1);
     cursor: pointer;
-}
-
-.text {
 }
 
 .thanks {

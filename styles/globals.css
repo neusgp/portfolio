@@ -26,6 +26,12 @@ h3 {
     font-size: 2em;
 }
 
+h4 {
+    font-size: 130%;
+    color: #00418f;
+    margin: 6% 0 0 0;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

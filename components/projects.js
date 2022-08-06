@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+import Link from "next/link";
 import styles from "../styles/projects.module.css";
 
 export default function Projects({ projects }) {
@@ -31,18 +31,22 @@ function List({ projects }) {
                         <p className={styles.tools}>{item.tools}</p>
                         <p className={styles.description}>{item.description}</p>
                         <div className={styles.buttons}>
-                            <a href={item.url}>
-                                <button className={styles.app_button}>
-                                    <p className={styles.url}>Open App</p>
-                                </button>
-                            </a>
-                            <a href={item.repo_url}>
-                                <button className={styles.repo_button}>
-                                    <p className={styles.repo_url}>
-                                        GitHub Repo
-                                    </p>
-                                </button>
-                            </a>
+                            <Link href={item.repo_url}>
+                                <a target="_blank">
+                                    <button className={styles.app_button}>
+                                        <p className={styles.url}>Open App</p>
+                                    </button>
+                                </a>
+                            </Link>
+                            <Link href={item.repo_url}>
+                                <a target="_blank">
+                                    <button className={styles.repo_button}>
+                                        <p className={styles.repo_url}>
+                                            GitHub Repo
+                                        </p>
+                                    </button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 );

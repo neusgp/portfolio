@@ -1,6 +1,10 @@
 import styles from "../styles/about.module.css";
 import Timeline from "./timeline";
 import Image from "next/image";
+import Link from "next/link";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import profile_pic from "../public/profile_pic.png";
 
@@ -27,6 +31,22 @@ export default function About() {
                         non proident, sunt in culpa qui officia deserunt mollit
                         anim id est laborum.
                     </p>
+                    <Link href="https://www.linkedin.com/in/neusgp/">
+                        <a target="_blank">
+                            <FontAwesomeIcon
+                                icon={faLinkedin}
+                                className={styles.icon}
+                            />
+                        </a>
+                    </Link>
+                    <Link href="https://www.instagram.com/la_neuetes/">
+                        <a target="_blank">
+                            <FontAwesomeIcon
+                                className={styles.icon}
+                                icon={faInstagram}
+                            />
+                        </a>
+                    </Link>
                 </div>
             </div>
             <Timeline />
