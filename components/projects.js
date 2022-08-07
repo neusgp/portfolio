@@ -31,7 +31,7 @@ function List({ projects }) {
                         <p className={styles.tools}>{item.tools}</p>
                         <p className={styles.description}>{item.description}</p>
                         <div className={styles.buttons}>
-                            <Link href={item.repo_url}>
+                            <Link href={item.url}>
                                 <a target="_blank">
                                     <button className={styles.app_button}>
                                         <p className={styles.url}>Open App</p>
