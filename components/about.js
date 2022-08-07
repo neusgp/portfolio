@@ -1,5 +1,5 @@
 import styles from "../styles/about.module.css";
-import Timeline from "./timeline";
+import Stack from "./stack";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -49,7 +49,7 @@ export default function About() {
                     </Link>
                 </div>
             </div>
-            <Timeline />
+            <Stack />
         </div>
     );
 }
