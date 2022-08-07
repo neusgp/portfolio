@@ -34,6 +34,10 @@ export default function Home({ foundProjects }) {
             <About />
             <Projects projects={foundProjects} />
             <Contact />
+            <footer>
+                <p>© Neus Garcia 2022</p>
+            </footer>
         </div>
+
     );
 }
