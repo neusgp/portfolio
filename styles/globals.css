@@ -1,9 +1,14 @@
 html,
 body {
     margin: 0;
+    overflow-x: hidden;
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
     color: #00418f;
+}
+
+body {
+    position: relative;
 }
 
 * {

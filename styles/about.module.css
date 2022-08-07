@@ -33,3 +33,20 @@
     color: #00418f;
     margin: 0 4% 0 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .about {
+        padding-top: 12%;
+    }
+    .content {
+        flex-direction: column;
+        width: 90%;
+    }
+    .text {
+        align-self: center;
+    }
+    .icon {
+        width: 10%;
+        margin-right: 8%;
+    }
+}

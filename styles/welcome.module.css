@@ -21,3 +21,19 @@
     display: flex;
     
 }
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+        padding-top: 20%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title {
+        text-align: center;
+        width: 80%;
+    }
+    .image {
+        width: 70%;
+        margin-top: 6%;
+    }
+}

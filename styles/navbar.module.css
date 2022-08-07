@@ -46,10 +46,28 @@
 .button:hover {
     background: white;
     color: rgba(223, 11, 138, 1);
-    border: 2px solid rgba(223, 11, 138, 1);
+    border: 1px solid rgba(223, 11, 138, 1);
     cursor: pointer;
 }
 
 .buttontext {
     margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        justify-content: flex-start;
+        font-size: 0.8em;
+    }
+    .menu {
+        left: 4%;
+        right: 0;
+        width: min-content;
+        justify-content: left;
+        gap: 20%;
+    }
+    .button {
+        right: 0;
+        padding: 2% 3% 2% 3%;
+    }
 }

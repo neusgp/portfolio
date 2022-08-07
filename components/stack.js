@@ -51,7 +51,7 @@ export default function Stack() {
                     />
                 </div>
                 <div className={styles.group}>
-                    <h4>Learning...</h4>
+                    <h4 className={styles.learning}>Learning...</h4>
                     <img
                         className={styles.icon}
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
