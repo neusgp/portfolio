@@ -32,19 +32,19 @@ function List({ projects }) {
                         <p className={styles.description}>{item.description}</p>
                         <div className={styles.buttons}>
                             <Link href={item.url}>
-                                <a target="_blank">
-                                    <button className={styles.app_button}>
+                                <a target="_blank" className={styles.link}>
+                                    <div className={styles.app_button}>
                                         <p className={styles.url}>Open App</p>
-                                    </button>
+                                    </div>
                                 </a>
                             </Link>
                             <Link href={item.repo_url}>
-                                <a target="_blank">
-                                    <button className={styles.repo_button}>
+                                <a target="_blank" className={styles.link}>
+                                    <div className={styles.repo_button}>
                                         <p className={styles.repo_url}>
-                                            GitHub Repo
+                                            GitHub
                                         </p>
-                                    </button>
+                                    </div>
                                 </a>
                             </Link>
                         </div>
