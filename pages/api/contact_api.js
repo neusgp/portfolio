@@ -1,9 +1,9 @@
 import AWS from "aws-sdk";
-import secrets from "../../secrets.json";
+/* import secrets from "../../secrets.json"; */
 
 const ses = new AWS.SES({
-    accessKeyId: secrets.AWS_KEY,
-    secretAccessKey: secrets.AWS_SECRET,
+    accessKeyId: process.env.AWS_KEY,
+    secretAccessKey: process.env.AWS_SECRET,
     region: "eu-central-1",
 });
 
