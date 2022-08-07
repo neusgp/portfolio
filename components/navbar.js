@@ -1,4 +1,5 @@
 import styles from "../styles/navbar.module.css";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -16,9 +17,13 @@ export default function Navbar() {
                     Contact
                 </a>
             </div>
-            <div className={styles.button}>
-                <p className={styles.buttontext}>Download CV</p>
-            </div>
+            <Link href="https://neusgarcia-portfolio.s3.eu-central-1.amazonaws.com/Neus+Garcia+dev.pdf">
+                <a target="_blank" className={styles.button}>
+                    <div>
+                        <p className={styles.buttontext}>Download CV</p>
+                    </div>
+                </a>
+            </Link>
         </div>
     );
 }
