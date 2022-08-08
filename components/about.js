@@ -19,7 +19,7 @@ export default function About() {
                     />
                 </div>
                 <div className={styles.text}>
-                    <h3>Hola, Hello, Hallo, Ciao!</h3>
+                    <h3>About me</h3>
                     <p className={styles.bio}>
                         I am a junior Full-Stack Developer from Spain, currently
                         living in Germany. I have a background in classical
