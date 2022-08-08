@@ -50,7 +50,7 @@
 
 .app_button {
     display: flex;
-    width: max-content;
+    width: 100%;
     justify-content: center;
     align-items: center;
     color: white;
@@ -58,7 +58,7 @@
     text-decoration: none;
     border: none;
     border-radius: 50px;
-    padding: 0.8% 18% 0.8% 18%;
+    padding: 0.8% 10% 0.8% 10%;
     background: linear-gradient(
         90deg,
         rgba(223, 11, 138, 1) 0%,
@@ -78,7 +78,7 @@
     text-decoration: none;
     border: none;
     border-radius: 50px;
-    padding: 0.8% 18% 0.8% 18%;
+    padding: 0.8% 10% 0.8% 10%;
     background: linear-gradient(
         90deg,
         #000000 0%,
@@ -94,7 +94,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 36%;
+    width: 50%;
 }
 
 .app_button:hover {
@@ -107,8 +107,9 @@
 
 @media only screen and (max-width: 768px) {
     .intro {
-        width: 60%;
+        width: 70%;
         text-align: center;
+        font-size: 0.9em;
     }
     .list {
         flex-direction: column;
@@ -118,5 +119,12 @@
     .item {
         width: 100%;
         padding: 8%;
+        font-size: 0.9em;
+    }
+    .image {
+        margin-bottom: 6%;
+    }
+    .buttons {
+        font-size: 0.9em;
     }
 }

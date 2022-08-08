@@ -26,6 +26,7 @@
     color: #4f4f4f;
     line-height: 2;
     font-size: 1.2em;
+    margin-bottom: 12%;
 }
 
 .icon {
@@ -41,9 +42,17 @@
     .content {
         flex-direction: column;
         width: 90%;
+        margin-bottom: 10%;
+    }
+    .profile_pic {
+        width: 50%;
     }
     .text {
         align-self: center;
+    }
+
+    .bio {
+        font-size: 0.9em;
     }
     .icon {
         width: 10%;

@@ -19,12 +19,11 @@
     position: relative;
     width: 35%;
     display: flex;
-    
 }
 
 @media only screen and (max-width: 768px) {
     .welcome {
-        padding-top: 20%;
+        padding-top: 10%;
         flex-direction: column;
         justify-content: center;
     }

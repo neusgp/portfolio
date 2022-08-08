@@ -21,15 +21,21 @@ export default function About() {
                 <div className={styles.text}>
                     <h3>Hola, Hello, Hallo, Ciao!</h3>
                     <p className={styles.bio}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
+                        I am a junior Full-Stack Developer from Spain, currently
+                        living in Germany. I have a background in classical
+                        music and language teaching and I am always ready to
+                        learn new things. <br />
+                        <br />I discovered Web Development while working as an
+                        online teacher during the pandemic. When things got a
+                        bit normal again and having already studied a few months
+                        by myself, I decided to enroll in a Full-Stack
+                        Webdevelopement Bootcamp. It was a very intense learning
+                        experience and now I am excited to start my career in
+                        the Technology field. <br />
+                        <br />
+                        Feel free to have a look at my projects, access my
+                        Linkedin or Instagram profiles or write me in the
+                        contact section.
                     </p>
                     <Link href="https://www.linkedin.com/in/neusgp/">
                         <a target="_blank">

@@ -90,9 +90,12 @@
     }
     .text {
         text-align: center;
+        font-size: 0.9em;
+        width: 80%;
+        margin-bottom: 10%;
     }
     .form {
-        width: 70%;
+        width: 80%;
         height: 60%;
     }
 }
