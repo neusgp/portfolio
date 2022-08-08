@@ -17,7 +17,7 @@ export default function Navbar() {
                     Contact
                 </a>
             </div>
-            <Link href="https://neusgarcia-portfolio.s3.eu-central-1.amazonaws.com/Neus+Garcia+dev.pdf">
+            <Link href="https://neusgarcia-portfolio.s3.eu-central-1.amazonaws.com/Neus+Garcia+Puigdollers+CV.pdf">
                 <a target="_blank" className={styles.button}>
                     <div>
                         <p className={styles.buttontext}>Download CV</p>
