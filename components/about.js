@@ -29,7 +29,7 @@ export default function About() {
                         online teacher during the pandemic. When things got a
                         bit normal again and having already studied a few months
                         by myself, I decided to enroll in a Full-Stack
-                        Webdevelopement Bootcamp. It was a very intense learning
+                        Web Developement Bootcamp. It was a very intense learning
                         experience and now I am excited to start my career in
                         the Technology field. <br />
                         <br />
